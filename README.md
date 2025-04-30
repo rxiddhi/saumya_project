@@ -1,10 +1,8 @@
 # Saumya - Mental Health & Wellness Platform
 
-![Saumya Logo](public/logo.png)
-
 ## 🌟 Overview
 
-Saumya is a comprehensive mental health and wellness web application designed to provide support, resources, and tools for individuals seeking to improve their mental well-being. Our platform offers a safe, accessible, and user-friendly environment for mental health support and personal growth.
+Saumya is a comprehensive mental health and wellness web application designed to provide support, resources, and tools for individuals seeking to improve their mental well-being. Our platform offers a safe, accessible, and user-friendly mental health support and personal growth environment.
 
 ## ✨ Features
 
@@ -85,8 +83,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💖 Support
 
 If you need support or have any questions, please reach out to us:
-- Email: support@saumya.com
-- Twitter: [@saumyahealth](https://twitter.com/saumyahealth)
 - Website: [www.saumya.com](https://www.saumya.com)
 
 ## 🙏 Acknowledgments
