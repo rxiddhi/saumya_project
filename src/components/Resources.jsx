@@ -1,10 +1,11 @@
 import React from 'react';
+import { images } from '../utils/images';
 
 const Resources = () => {
   const blogPosts = [
     {
       title: "Understanding Anxiety",
-      image: "/saumya_project/anxiety.png",
+      image: images.anxiety,
       description: "Explore comprehensive guides about anxiety symptoms, triggers, and evidence-based coping strategies. Learn from experts and find practical ways to manage anxiety effectively.",
       links: [
         {
@@ -23,7 +24,7 @@ const Resources = () => {
     },
     {
       title: "Mindfulness Practices",
-      image: "/saumya_project/mindfulness.png",
+      image: images.mindfulness,
       description: "Discover the power of mindfulness and meditation. Learn scientifically-proven techniques to reduce stress, improve focus, and enhance your overall mental well-being.",
       links: [
         {
@@ -42,7 +43,7 @@ const Resources = () => {
     },
     {
       title: "Self-Care Tips",
-      image: "/saumya_project/self-care.png",
+      image: images.selfCare,
       description: "Learn essential self-care practices and daily habits that promote mental wellness. Discover practical strategies to maintain emotional balance and personal growth.",
       links: [
         {
