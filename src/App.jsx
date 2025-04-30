@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import MusicPlayer from './components/MusicPlayer';
 import Resources from './components/Resources';
 import DailyChallenge from './components/DailyChallenge'
+import { images } from './utils/images'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -58,21 +59,21 @@ function App() {
     {
       title: "Mood Tracking",
       description: "Track and understand your emotional patterns",
-      icon: "/saumya_project/mood-tracker.png",
+      icon: images.moodTracker,
       benefits: ["Daily mood insights", "Pattern recognition", "Progress tracking"],
       action: () => setActiveSection('mood')
     },
     {
       title: "Breathing Exercises",
       description: "Scientifically proven techniques for calm and focus",
-      icon: "/saumya_project/beach-meditation.jpg",
+      icon: images.beachMeditation,
       benefits: ["Stress reduction", "Better focus", "Improved sleep"],
       action: () => setActiveSection('breathing')
     },
     {
       title: "Daily Inspiration",
       description: "Curated quotes to uplift your spirit",
-      icon: "/saumya_project/quotes.png",
+      icon: images.quotes,
       benefits: ["Daily motivation", "Positive mindset", "Emotional support"],
       action: () => setActiveSection('quotes')
     }
@@ -213,7 +214,7 @@ function App() {
                 aria-label="Go to home"
               >
                 <img 
-                  src="/saumya_project/care-icon.png" 
+                  src={images.careIcon}
                   alt=""
                   className="w-8 h-8 mr-2"
                   aria-hidden="true"
