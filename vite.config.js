@@ -6,14 +6,20 @@ import { twMerge } from "tailwind-merge";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/saumya_project/', // Update this to match your repository name
+  base: '/saumya_project/',
   server: {
     port: 3000,
-    host: true // This enables network access
+    host: true
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: true,
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 })
 
