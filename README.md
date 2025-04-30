@@ -1,96 +1,117 @@
-# Saumya - Mental Health & Wellness Platform
 
-## 🌟 Overview
+🌸 Saumya – Your Companion in Mental Wellness
+🌿 Overview
+Saumya is more than just a web app — it’s a calming corner of the internet where self-care meets technology. Designed to empower users on their mental health journey, Saumya offers practical tools, curated resources, and emotional support in a safe, accessible, and inclusive digital space.
 
-Saumya is a comprehensive mental health and wellness web application designed to provide support, resources, and tools for individuals seeking to improve their mental well-being. Our platform offers a safe, accessible, and user-friendly mental health support and personal growth environment.
+Whether you're journaling your thoughts, tracking your mood, or looking for a quick reminder that you're not alone, Saumya is here for you.
 
-## ✨ Features
+✨ Features That Matter
+🧠 Interactive To-Do Tracker: Organize your day with wellness-first task planning.
 
-- **Interactive Todo Management**: Personal task management with mental health focus
-- **Resource Library**: Curated collection of mental health articles and resources
-- **Quick Tips**: Instant access to wellness and coping strategies
-- **Emergency Contacts**: Quick access to crisis helplines and support services
-- **Accessibility Focus**: ARIA-compliant and keyboard-navigable interface
-- **Responsive Design**: Seamless experience across all devices
+📚 Resource Library: Handpicked articles and guides from trusted mental health domains.
 
-## 🚀 Getting Started
+💡 Quick Tips: Instant nuggets of self-care and coping strategies.
 
-### Prerequisites
+🚨 Emergency Helplines: Fast access to crisis support when you need it most.
 
-- Node.js (v14.0.0 or higher)
-- npm or yarn
+♿ Accessibility First: ARIA-compliant, screen-reader friendly, and keyboard navigable.
 
-### Installation
+📱 Fully Responsive: Seamless experience across mobile, tablet, and desktop.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/saumya_project.git
-   cd saumya_project
-   ```
+🚀 Getting Started
+🔧 Prerequisites
+Node.js (v14 or higher)
 
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+npm or yarn
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+💻 Installation Steps
+Clone the repo:
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/saumya_project.git
+cd saumya_project
+Install dependencies:
 
-## 🛠️ Built With
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Run locally:
 
-- [React](https://reactjs.org/) - Frontend library
-- [Vite](https://vitejs.dev/) - Build tool and development server
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [React Router](https://reactrouter.com/) - Navigation
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+Visit the app at http://localhost:5173
 
-## 🌈 Key Components
+🛠 Tech Stack
+⚛️ React – UI Library
 
-- **Todo Component**: Manage daily tasks and wellness activities
-- **Resources Component**: Access mental health articles and information
-- **Footer Component**: Quick access to emergency contacts and social links
+⚡ Vite – Lightning-fast build tool
 
-## 🎯 Accessibility
+💅 Tailwind CSS – Utility-first styling
 
-Saumya is built with accessibility in mind:
-- ARIA labels and roles
-- Semantic HTML structure
-- Keyboard navigation support
-- Screen reader compatibility
-- High contrast mode support
+🧭 React Router – Seamless page navigation
 
-## 🤝 Contributing
+🎨 React Icons – Iconography
 
-We welcome contributions to Saumya! Please feel free to:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+🧩 Core Components
+Todo – Plan daily activities and mental wellness tasks
 
-## 📝 License
+Resources – Dive into articles, guides, and supportive content
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Footer – Navigate to helplines and connect via social links
 
-## 💖 Support
+🎯 Accessibility
+Built with empathy and inclusivity at heart:
 
-If you need support or have any questions, please reach out to us:
-- Website: [www.saumya.com](https://www.saumya.com)
+Semantic HTML & ARIA roles
 
-## 🙏 Acknowledgments
+Full keyboard navigation
 
-- Mental health professionals who provided guidance
-- Our amazing community of users and contributors
-- Open source libraries and tools that made this possible
+High contrast & screen reader support
 
----
+Minimal motion and mindful color schemes
 
-Made with ❤️ for mental health and wellness
+🤝 Contributing
+Want to contribute? We'd love your support! 💖
+Follow these steps:
+
+Fork the repo
+
+Create your feature branch (git checkout -b feature/awesome-feature)
+
+Commit your changes (git commit -m 'Add awesome feature')
+
+Push (git push origin feature/awesome-feature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+💌 Support & Contact
+Have questions, suggestions, or want to say hi?
+
+🌐 Website: saumya-mental-health.netlify.app
+
+✉️ Reach out via the Issues or Discussions tab on GitHub
+
+🙏 Gratitude
+A heartfelt thank-you to:
+
+The mental health professionals who guided the content
+
+The open-source community for its generous resources
+
+Every user who believed healing could start with a click
+
+Made with ☀️, hope, and humanity
+Because your mental health matters.
