@@ -33,10 +33,10 @@ export default defineConfig({
           const info = assetInfo.name.split('.');
           const ext = info[info.length - 1];
           if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(ext)) {
-            return `images/[name][extname]`;
+            return `[name][extname]`;
           }
           if (/mp3|wav/i.test(ext)) {
-            return `audio/[name][extname]`;
+            return `[name][extname]`;
           }
           return `assets/[name][extname]`;
         },
