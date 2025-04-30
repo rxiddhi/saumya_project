@@ -1,56 +1,57 @@
+# 🌿 Saumya - Mental Health & Wellness Platform
 
-🌸 Saumya – Your Companion in Mental Wellness
-🌿 Overview
-Saumya is more than just a web app — it’s a calming corner of the internet where self-care meets technology. Designed to empower users on their mental health journey, Saumya offers practical tools, curated resources, and emotional support in a safe, accessible, and inclusive digital space.
+## 🌟 Overview
 
-Whether you're journaling your thoughts, tracking your mood, or looking for a quick reminder that you're not alone, Saumya is here for you.
+**Saumya** is a comprehensive mental health and wellness web application designed to provide support, resources, and tools for individuals seeking to improve their mental well-being.  
+Our platform offers a safe, accessible, and user-friendly mental health support and personal growth environment.
 
-✨ Features That Matter
-🧠 Interactive To-Do Tracker: Organize your day with wellness-first task planning.
+---
 
-📚 Resource Library: Handpicked articles and guides from trusted mental health domains.
+## ✨ Features
 
-💡 Quick Tips: Instant nuggets of self-care and coping strategies.
+- ✅ **Interactive Todo Management**: Personal task management with a mental health focus
+- 📚 **Resource Library**: Curated collection of mental health articles and resources
+- 💡 **Quick Tips**: Instant access to wellness and coping strategies
+- 📞 **Emergency Contacts**: Quick access to crisis helplines and support services
+- ♿ **Accessibility Focus**: ARIA-compliant and keyboard-navigable interface
+- 📱 **Responsive Design**: Seamless experience across all devices
 
-🚨 Emergency Helplines: Fast access to crisis support when you need it most.
+---
 
-♿ Accessibility First: ARIA-compliant, screen-reader friendly, and keyboard navigable.
+## 🚀 Getting Started
 
-📱 Fully Responsive: Seamless experience across mobile, tablet, and desktop.
+### 🔧 Prerequisites
 
-🚀 Getting Started
-🔧 Prerequisites
-Node.js (v14 or higher)
+- [Node.js](https://nodejs.org/) (v14.0.0 or higher)
+- npm or yarn
 
-npm or yarn
+---
 
-💻 Installation Steps
-Clone the repo:
+### 📦 Installation
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/saumya_project.git
-cd saumya_project
-Install dependencies:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/saumya_project.git
+   cd saumya_project
+   ```
 
-bash
-Copy
-Edit
+2. **Install dependencies:**
+
+  ```bash
 npm install
 # or
 yarn install
+  ```
 Run locally:
 
-bash
-Copy
-Edit
+  ```bash
 npm run dev
 # or
 yarn dev
+  ```
 Visit the app at http://localhost:5173
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 ⚛️ React – UI Library
 
 ⚡ Vite – Lightning-fast build tool
@@ -61,14 +62,14 @@ Visit the app at http://localhost:5173
 
 🎨 React Icons – Iconography
 
-🧩 Core Components
+## 🧩 Core Components
 Todo – Plan daily activities and mental wellness tasks
 
 Resources – Dive into articles, guides, and supportive content
 
 Footer – Navigate to helplines and connect via social links
 
-🎯 Accessibility
+## 🎯 Accessibility
 Built with empathy and inclusivity at heart:
 
 Semantic HTML & ARIA roles
@@ -79,7 +80,7 @@ High contrast & screen reader support
 
 Minimal motion and mindful color schemes
 
-🤝 Contributing
+## 🤝 Contributing
 Want to contribute? We'd love your support! 💖
 Follow these steps:
 
@@ -93,18 +94,18 @@ Push (git push origin feature/awesome-feature)
 
 Open a Pull Request
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-💌 Support & Contact
+## 💌 Support & Contact
 Have questions, suggestions, or want to say hi?
 
 🌐 Website: saumya-mental-health.netlify.app
 
 ✉️ Reach out via the Issues or Discussions tab on GitHub
 
-🙏 Gratitude
+## 🙏 Gratitude
 A heartfelt thank-you to:
 
 The mental health professionals who guided the content
@@ -113,5 +114,5 @@ The open-source community for its generous resources
 
 Every user who believed healing could start with a click
 
-Made with ☀️, hope, and humanity
+## Made with ☀️, hope, and humanity
 Because your mental health matters.
