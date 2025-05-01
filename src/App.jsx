@@ -10,11 +10,14 @@ import Testimonials from './components/Testimonials';
 import MusicPlayer from './components/MusicPlayer';
 import Resources from './components/Resources';
 import DailyChallenge from './components/DailyChallenge'
+import AuthModal from './components/AuthModal'
 import { images } from './utils/images'
+import { FaUser } from 'react-icons/fa'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [currentSection, setCurrentSection] = useState(0);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const sections = ['hero', 'features', 'daily-challenge', 'testimonials'];
 
   const scrollToTop = () => {
@@ -222,7 +225,7 @@ function App() {
                 <span className="text-2xl font-bold text-purple-600">Saumya</span>
               </button>
 
-              <div className="flex space-x-4">
+              <div className="flex items-center space-x-4">
                 {[
                   { id: 'home', label: 'Home' },
                   { id: 'mood', label: 'Mood Tracker' },
@@ -241,6 +244,13 @@ function App() {
                     {item.label}
                   </button>
                 ))}
+                <button
+                  onClick={() => setIsAuthModalOpen(true)}
+                  className="ml-4 p-2 rounded-full hover:bg-purple-100 transition-colors"
+                  aria-label="Account"
+                >
+                  <FaUser className="w-5 h-5 text-purple-600" />
+                </button>
               </div>
             </div>
           </div>
@@ -251,6 +261,7 @@ function App() {
         <Footer setActiveSection={handleSectionChange} />
         <MusicPlayer />
       </div>
+      <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
     </div>
   );
 }
