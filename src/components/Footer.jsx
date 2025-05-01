@@ -18,6 +18,12 @@ const Footer = ({ setActiveSection }) => {
     { icon: <FaYoutube />, url: 'https://youtube.com/saumyawellness', label: 'YouTube', comingSoon: true }
   ];
 
+  // Add From Developer link
+  const devLink = {
+    text: "Behind the Journey: Developer's Notes",
+    url: "https://drive.google.com/file/d/1GQ886EZeY-R230Bi1Kzjup7hiunYzkeI/view?usp=sharing"
+  };
+
   const emergencyContacts = [
     { name: 'Emergency Services', number: '112' },
     { name: 'AASRA Helpline', number: '+91-9820466726' },
@@ -72,6 +78,14 @@ const Footer = ({ setActiveSection }) => {
                 </a>
               ))}
             </div>
+            <a
+              href={devLink.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block mt-4 text-purple-600 hover:text-purple-800 transition-all duration-300 text-sm font-semibold bg-purple-50 px-4 py-2 rounded-full hover:bg-purple-100 hover:scale-105 transform inline-flex items-center gap-2 shadow-sm hover:shadow-md"
+            >
+              {devLink.text} <span aria-hidden="true"></span>
+            </a>
           </section>
 
           <section aria-label="Features">
