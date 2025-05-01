@@ -66,11 +66,11 @@ const Testimonials = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       <h2 className="text-3xl font-bold text-purple-800 text-center mb-8">
-        Stories from Our Users
+        Stories from Our Community
       </h2>
 
       <div className="relative">
-        <div 
+        <div
           className="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-8 transition-all duration-500 transform"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
@@ -104,9 +104,8 @@ const Testimonials = () => {
               <button
                 key={index}
                 onClick={() => handleDotClick(index)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  index === currentIndex ? 'bg-purple-600 w-4' : 'bg-purple-200'
-                }`}
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentIndex ? 'bg-purple-600 w-4' : 'bg-purple-200'
+                  }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
             ))}
